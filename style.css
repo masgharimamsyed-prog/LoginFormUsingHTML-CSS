@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgba(163, 168, 174, 0.725);
+
+
+}
+#page {
+    border:1px black solid;
+    border-radius: 1.5%;
+    display: inline-block;
+    width: 45%;
+    background-color: white;
+     
+}
+
+
+#welcome{
+    font-size: 1.5em;
+    color:red;
+    font-weight: bolder;
+}
+#info{
+    text-align: center;
+    display: inline-block;   
+    margin: 2%; 
+    width:45%;
+}
+#mail,#pass{
+    margin-bottom: 6%;
+}
+#mail label,#pass label{
+    display: block;
+    text-align: left;
+}
+#gender,#coun{
+    text-align: left;
+    margin:2%;
+}
+
+#agree{
+    text-decoration: underline red;
+    margin-left: 12%;
+}
+#agree input{
+    margin:0%
+}
+#login{
+    display: inline-block;
+    margin: 1.5%;
+    width:80%;
+    height: 3em;
+    border-radius:9px ;
+    background-color:red;
+     color: white;
+    border:none;
+}
+#login:hover,#signup:hover{
+    background-color:rgb(219, 131, 131);
+}
+#signup{
+     margin: 1.5;
+    width:80%;
+    height: 3em;
+    border-radius:9px ;
+    background-color: rgb(7, 7, 7);
+     color: white;
+    border:none;
+}
+#continue{
+   
+    text-align: center;
+    
+    display: inline-block;
+}
+
+#continue img{
+    width:10%;
+}
+
+
